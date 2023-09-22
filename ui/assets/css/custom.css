@@ -1,0 +1,116 @@
+
+.unit_price:before,
+.price:before,
+.sum:before,
+.tax:before,
+#total_price:before,
+
+
+/**
+ * INVOICELIST BODY
+ */
+.invoicelist-body {
+  margin: 1rem;
+}
+.invoicelist-body table {
+  width: 100%;
+}
+.invoicelist-body thead {
+  text-align: left;
+  border-bottom: 2pt solid #666;
+}
+.invoicelist-body td, .invoicelist-body th {
+  position: relative;
+  padding: 5px;
+}
+
+.invoicelist-body tr:hover .removeRow {
+  display: block;
+}
+.invoicelist-body input {
+  display: inline;
+  margin: 0;
+  border: none;
+  width: 99%;
+  min-width: 0;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+.invoicelist-body .control {
+  display: inline-block;
+  color: white;
+  background: #03a6ee;
+  padding: 3px 7px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.invoicelist-body .control:hover {
+  background: #03a6ee;
+}
+.invoicelist-body .newRow {
+  margin: 0.5rem 0;
+  float: left;
+}
+.invoicelist-body .removeRow {
+  display: none;
+  position: absolute;
+  top: 0.1rem;
+  bottom: 0.1rem;
+  left: -1.3rem;
+  font-size: 0.7rem;
+  border-radius: 3px 0 0 3px;
+  padding: 0.5rem;
+}
+
+
+/**
+ * INVOICE LIST FOOTER
+ */
+.invoicelist-footer {
+  margin: 1rem;
+}
+.invoicelist-footer table {
+  float: right;
+  width: 25%;
+}
+.invoicelist-footer table td {
+  padding: 1rem 2rem 0 1rem;
+  text-align: right;
+}
+.invoicelist-footer table tr:nth-child(2) td {
+  padding-top: 0;
+}
+.invoicelist-footer table #total_price {
+  font-size: 2rem;
+  color: #03a6ee;
+}
+
+
+
+table{
+    padding: 0px;
+}
+
+.table > :not(caption) > * > *{
+    padding: 0.0rem 0.3rem;
+    border-bottom-width: 1px;
+    
+}
+
+.table.gy-7 th, .table.gy-7 td {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem; 
+}
+
+.modal-body{
+    padding: 0.1rem;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd){
+  --bs-table-accent-bg: var(
+    --bs-table-striped-bg);
+      color: var(--bs-table-striped-color);
+}

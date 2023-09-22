@@ -1,0 +1,40 @@
+{
+  "items": {
+    "#DOC00001": {
+      "serial_no": "#DOC00001",
+      "address": "Nairobi <br> Plaza house <br> additional..",
+      "bill_no": "",
+      "bill_to": "someone  <br> Adress  <br> 22850 Stadt",
+      "company_details": "",
+      "company_name": "",
+      "contact_info": "Email:info@example.ac.ke.  <br> Solar Rays Nairobi  <br> P.O. Box 43844-00100.  <br> Tel: +254 20 870 Ext 4000/3000.",
+      "date": "15-09-2023",
+      "delivery_note": false,
+      "due_date": "",
+      "due_date_no": "",
+      "footnotes": "",
+      "invoice_data": {
+        "description": [
+          " app dev"
+        ],
+        "unit_price": [
+          ""
+        ],
+        "quantity": [
+          ""
+        ],
+        "subtotal": [
+          "0.00"
+        ],
+        "items": 1
+      },
+      "logo_path": "C:\\Users\\wilson\\Desktop\\building\\ui\\assets\\media\\default.png",
+      "payment_info": "Credit Card  <br> Card Type: Visa",
+      "shipped_to": "someone  <br> Adress  <br> 22850 Stadt",
+      "shipped_to_H": "SHIP TO",
+      "templatePath": "",
+      "timeline": "",
+      "total": "0.00"
+    }
+  }
+}
